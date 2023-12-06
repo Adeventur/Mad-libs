@@ -1,0 +1,28 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: whitesmoke;
+
+  padding: 20px;
+}
+
+.mad-libs-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: cornsilk;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px wheat;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.story {
+  margin-top: 20px;
+}

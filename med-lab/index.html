@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <title>Mad Libs </title>
+</head>
+<body>
+  
+      <div class="mad-libs-container">
+        <h1>MAD LIBS </h1>
+    <br>
+        <form id="madLibsForm">
+          <div class="form-group">
+            <label for="noun">Noun:</label>
+            <input type="text" class="form-control" id="noun" required>
+          </div>
+    <br>
+          <div class="form-group">
+            <label for="adjective">Adjective:</label>
+            <input type="text" class="form-control" id="adjective" required>
+          </div>
+    <br>
+          <div class="form-group">
+            <label for="verb">Verb:</label>
+            <input type="text" class="form-control" id="verb" required>
+          </div>
+    <br>
+          <button type="button" class="btn btn-primary" onclick="generateMadLibs()">Generate Story</button>
+        </form>
+    
+        <div class="story" id="madLibsOutput"></div>
+      </div>
+    
+</body>
+</html>
